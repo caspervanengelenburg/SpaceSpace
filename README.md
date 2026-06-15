@@ -26,3 +26,6 @@ The physical realization of this concept consists of an interactive setup with t
 
 - **Process map**: A static map displayed on a table illustrates how the visual and interactive landscape is generated.
 - **Interactive navigation**: A large screen allows users to navigate the landscape of the embedding space. As users walk through the space, floor plans derived from high-res images, graphs, and wall graphs are displayed at the exact locations where the model embedded them. Only modalities that are physically close to the user's current position in the space are shown.
+
+The following figure shows intended setup
+![](assets/figs/setup.jpg)
