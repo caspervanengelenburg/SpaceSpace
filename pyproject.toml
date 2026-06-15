@@ -10,8 +10,8 @@ readme = "README.md"
 authors = [
     {name = "Casper van Engelenburg"},
     {name = "Seyran Khademi"},
-    {name = "Sayan Deb Sarkar"},
-    {name = "Iro Armeni"},
+#    {name = "Sayan Deb Sarkar"},
+#    {name = "Iro Armeni"},
     {name = "Jan van Gemert"}
 ]
 requires-python = ">=3.9"
