@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Home
       - href: notebooks/landscape.ipynb
-        text: Setting up the landscape
+        text: The Landscape
 
 format:
   html:

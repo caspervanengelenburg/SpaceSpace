@@ -19,6 +19,8 @@ dependencies = [
     "numpy",
     "matplotlib",
     "scipy",
+    "plotly",
+    "torch",
     "umap-learn",
     "scikit-learn",
     "networkx",
