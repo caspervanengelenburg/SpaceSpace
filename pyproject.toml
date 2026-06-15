@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spacespace"
+version = "0.1.0"
+description = "Navigating and visualizing the multi-modal embedding space of floor plans."
+readme = "README.md"
+authors = [
+    {name = "Casper van Engelenburg"},
+    {name = "Seyran Khademi"},
+    {name = "Sayan Deb Sarkar"},
+    {name = "Iro Armeni"},
+    {name = "Jan van Gemert"}
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "umap-learn",
+    "scikit-learn",
+    "networkx",
+    "shapely",
+    "notebook>=7.5.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "The Space of Spaces"
+  description: "Navigating and visualizing the multi-modal embedding space of floor plans."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: notebooks/landscape.ipynb
+        text: Setting up the landscape
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    jupyter: python3

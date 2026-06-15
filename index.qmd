@@ -1,4 +1,6 @@
-# The Space of Spaces
+---
+title: "The Space of Spaces"
+---
 
 This project explores the decoding of interior spaces, specifically floor plans, to understand how machines perceive the organization of space.
 
@@ -17,11 +19,10 @@ The workflow is as follows:
 - **Uncertainty Mapping**: To represent alignment uncertainty, we calculate a Gaussian-smoothed KDE based on ranking quality, specifically the average inter-modality rank of the top-1 prediction.
 - **Heatmap Projection**: This alignment uncertainty is then projected as a color heatmap directly onto the landscape defined by the point density.
 
-![Devop landscape](assets/figs/workflow.jpg)
+![Complex Workflow](assets/figs/workflow.jpg)
 
 ## Interactive setup
 The physical realization of this concept consists of an interactive setup with two main components:
 
 - **Process map**: A static map displayed on a table illustrates how the visual and interactive landscape is generated.
-- **Interactive navigation**: A large screen allows users to navigate the landscape of the embedding space. As users walk through the space, floor plans derived from high-res images, graphs, and wall graphs are displayed at the exact locations where the model embedded them. 
-* Only modalities that are physically close to the user's current position in the space are shown.
+- **Interactive navigation**: A large screen allows users to navigate the landscape of the embedding space. As users walk through the space, floor plans derived from high-res images, graphs, and wall graphs are displayed at the exact locations where the model embedded them. Only modalities that are physically close to the user's current position in the space are shown.
